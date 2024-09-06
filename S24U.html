@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="">Shop</a>
+            <a href="">Categories</a>
+            <a href="">Deals</a>
+            <a href="new_arrivals.html">New Arrivals</a>
+            <a href="">Contact</a>
+            <a href="">About Us</a>
+            <a href="">Cart</a>
+            <a href="">Account</a>
+        </nav>
+    </header>
+
+    <div class="carousel">
+      
+        <div class="list">
+            <div class="item">
+                <img src="image/s24ultraprocessor.jpg">
+                <div class="content">
+                    <div class="author">Samsung Galaxy S24 Ultra</div>
+                    <div class="title">Processor</div>
+                    <div class="topic">Snapdragon 8 Gen 3</div>
+                    <div class="des">
+                        Victory can be yours with the new Snapdragon® 8 Gen 3 for Galaxy. 20 Faster processing gives you the power you need for all the gameplay you want. 8 Then, manifest graphic effects in real time with ray tracing for hyper-realistic shadows and reflections.
+                    </div>
+
+                    <div class="buttons">
+                        <button  class="card" data-model="Galaxy S24 Ultra">TECH SPECS</button>
+                        <button>BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/s24ultracamera.jpg">
+                <div class="content">
+                    <div class="author">Samsung Galaxy S24 Ultra</div>
+                    <div class="title">Camera</div>
+                    <div class="topic">200MP</div>
+                    <div class="des">
+                        The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and colour. You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app.
+                    </div>
+
+                    <div class="buttons">
+                        <button class="card" data-model="Galaxy S24 Ultra">TECH SPECS</button>
+                        <button>BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/s24ultrabattery.jpg">
+                <div class="content">
+                    <div class="author">Samsung Galaxy S24 Ultra</div>
+                    <div class="title">Battery</div>
+                    <div class="topic">Long-lasting battery to play on and on</div>
+                    <div class="des">
+                        With massive capacity and greater energy efficiency, Ultra's battery gives you extra life when it matters most — you know, like the epic boss battle you've been gearing up for.
+                    </div>
+                    <div class="buttons">
+                        <button class="card" data-model="Galaxy S24 Ultra" >TECH SPECS</button>
+                        <button>BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/s24ultradisplay.jpg">
+                <div class="content">
+                    <div class="author">Samsung Galaxy S24 Ultra</div>
+                    <div class="title">Display</div>
+                    <div class="topic">2600 nits display</div>
+                    <div class="des">
+                        Our most immersive display comes with some major visibility upgrades. Corning® Gorilla® Armor reduces reflections and improves visual clarity, even in direct sunlight. Then, an improved Vision Booster enhances contrast and colour for a clearly exceptional experience. 25
+                    </div>
+                    <div class="buttons">
+                        <button class="card" data-model="Galaxy S24 Ultra" id="tech-specs-button">TECH SPECS</button>
+                        <button>BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <body> 
+        
+      
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/s24ultraprocessor.jpg">
+                <div class="content">
+                    <div class="title">
+                       Processor
+                    </div>
+                    <div class="description">
+                        Snapdragon 8 Gen 3
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/s24ultracamera.jpg">
+                <div class="content">
+                    <div class="title">
+                        Camera
+                    </div>
+                    <div class="description">
+                        200Mp
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/s24ultrabattery.jpg">
+                <div class="content">
+                    <div class="title">
+                       Battery
+                    </div>
+                    <div class="description">
+                        4900Mah
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/s24ultradisplay.jpg">
+                <div class="content">
+                    <div class="title">
+                       Display
+                    </div>
+                    <div class="description">
+                        Dynamic Amoled 2x
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('click', function () {
+                const modelName = this.getAttribute('data-model');
+                window.location.href = `fetch.html?model=${encodeURIComponent(modelName)}`;
+            });
+        });
+    });
+    </script>
+   
+</body>
+</html>

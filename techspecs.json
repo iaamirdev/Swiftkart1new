@@ -1,0 +1,478 @@
+[
+    {
+        "brand": "Apple",
+        "model": "iPhone 14 Pro Max",
+        "processor": "A16 Bionic",
+        "camera": {
+            "rear": "48MP + 12MP + 12MP",
+            "front": "12MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "display": {
+            "size": "6.7 inches",
+            "type": "Super Retina XDR OLED",
+            "resolution": "2778 x 1284 pixels"
+        },
+        "battery": {
+            "size": "4323mAh",
+            "type": "Li-Ion"
+        },
+        "operating_system": "iOS 16"
+    },
+    {
+        "brand": "Samsung",
+        "model": "Galaxy S23 Ultra",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": {
+            "rear": "200MP + 12MP + 10MP + 10MP",
+            "front": "12MP"
+        },
+        "storage_capacity": [
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "display": {
+            "size": "6.8 inches",
+            "type": "Dynamic AMOLED 2X",
+            "resolution": "3088 x 1440 pixels"
+        },
+        "battery": {
+            "size": "5000mAh",
+            "type": "Li-Ion"
+        },
+        "operating_system": "Android 13"
+    },
+    {
+        "brand": "Google",
+        "model": "Pixel 7 Pro",
+        "processor": "Google Tensor G2",
+        "camera": {
+            "rear": "50MP + 48MP + 12MP",
+            "front": "10.8MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "display": {
+            "size": "6.7 inches",
+            "type": "LTPO AMOLED",
+            "resolution": "3120 x 1440 pixels"
+        },
+        "battery": {
+            "size": "5000mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 13"
+    },
+    {
+        "brand": "OnePlus",
+        "model": "OnePlus 11",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": {
+            "rear": "50MP + 48MP + 32MP",
+            "front": "16MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "display": {
+            "size": "6.7 inches",
+            "type": "Fluid AMOLED",
+            "resolution": "3216 x 1440 pixels"
+        },
+        "battery": {
+            "size": "5000mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "OxygenOS based on Android 13"
+    },
+    {
+        "brand": "Samsung",
+        "model": "Galaxy S24 Ultra",
+        "processor": "Exynos 2400 / Snapdragon 8 Gen 3",
+        "camera": {
+            "rear": "200MP + 12MP + 10MP + 10MP",
+            "front": "40MP"
+        },
+        "storage": "256GB/512GB/1TB",
+        "display": {
+            "type": "Dynamic AMOLED 2X",
+            "size": "6.8 inches",
+            "resolution": "1440 x 3200 pixels"
+        },
+        "battery": "5000mAh",
+        "operating_system": "Android 14, One UI 6"
+    },
+    {
+        "brand": "Apple",
+        "model": "iPhone 15 Pro Max",
+        "processor": "A17 Pro",
+        "camera": {
+            "rear": "48MP + 12MP + 12MP",
+            "front": "12MP"
+        },
+        "storage": "256GB/512GB/1TB",
+        "display": {
+            "type": "LTPO Super Retina XDR OLED",
+            "size": "6.7 inches",
+            "resolution": "1290 x 2796 pixels"
+        },
+        "battery": "4352mAh",
+        "operating_system": "iOS 17"
+    },
+    {
+        "brand": "Google",
+        "model": "Pixel 8 Pro",
+        "processor": "Google Tensor G3",
+        "camera": {
+            "rear": "50MP + 48MP + 48MP",
+            "front": "11.1MP"
+        },
+        "storage": "128GB/256GB/512GB",
+        "display": {
+            "type": "LTPO OLED",
+            "size": "6.7 inches",
+            "resolution": "1440 x 3120 pixels"
+        },
+        "battery": "5100mAh",
+        "operating_system": "Android 14"
+    },
+    {
+        "brand": "OnePlus",
+        "model": "OnePlus 12",
+        "processor": "Snapdragon 8 Gen 3",
+        "camera": {
+            "rear": "50MP + 48MP + 64MP",
+            "front": "32MP"
+        },
+        "storage": "256GB/512GB",
+        "display": {
+            "type": "Fluid AMOLED",
+            "size": "6.8 inches",
+            "resolution": "1440 x 3216 pixels"
+        },
+        "battery": "5200mAh",
+        "operating_system": "OxygenOS 14, based on Android 14"
+    },
+    {
+        "brand": "Xiaomi",
+        "model": "Xiaomi 14 Ultra",
+        "processor": "Snapdragon 8 Gen 3",
+        "camera": {
+            "rear": "50MP + 48MP + 48MP",
+            "front": "32MP"
+        },
+        "storage": "256GB/512GB/1TB",
+        "display": {
+            "type": "AMOLED",
+            "size": "6.73 inches",
+            "resolution": "1440 x 3200 pixels"
+        },
+        "battery": "5000mAh",
+        "operating_system": "MIUI 15, based on Android 14"
+    },
+    {
+        "brand": "Realme",
+        "model": "Realme 12 Pro",
+        "processor": "Snapdragon 8+ Gen 1",
+        "camera": {
+            "rear": "108MP + 12MP + 8MP",
+            "front": "16MP"
+        },
+        "storage": "128GB/256GB",
+        "display": {
+            "type": "Super AMOLED",
+            "size": "6.5 inches",
+            "resolution": "1080 x 2400 pixels"
+        },
+        "battery": "5000mAh",
+        "operating_system": "Realme UI 5.0, based on Android 14"
+    },
+    {
+        "brand": "Oppo",
+        "model": "Oppo Find X6 Pro",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": {
+            "rear": "50MP + 50MP + 50MP",
+            "front": "32MP"
+        },
+        "storage": "256GB/512GB",
+        "display": {
+            "type": "LTPO3 AMOLED",
+            "size": "6.82 inches",
+            "resolution": "1440 x 3168 pixels"
+        },
+        "battery": "5000mAh",
+        "operating_system": "ColorOS 13.1, based on Android 14"
+    },
+    {
+        "brand": "Motorola",
+        "model": "Motorola Edge 40 Pro",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": {
+            "rear": "50MP + 50MP + 12MP",
+            "front": "60MP"
+        },
+        "storage": "256GB/512GB",
+        "display": {
+            "type": "OLED",
+            "size": "6.67 inches",
+            "resolution": "1080 x 2400 pixels"
+        },
+        "battery": "4600mAh",
+        "operating_system": "Android 14"
+    },
+    {
+        "brand": "Poco",
+        "model": "Poco F5 Pro",
+        "processor": "Snapdragon 8+ Gen 1",
+        "camera": {
+            "rear": "64MP + 8MP + 2MP",
+            "front": "20MP"
+        },
+        "storage": "128GB/256GB/512GB",
+        "display": {
+            "type": "AMOLED",
+            "size": "6.67 inches",
+            "resolution": "1080 x 2400 pixels"
+        },
+        "battery": "5160mAh",
+        "operating_system": "MIUI 14, based on Android 13"
+    },
+    {
+        "brand": "Samsung",
+        "model": "Galaxy A54",
+        "processor": "Exynos 1380",
+        "camera": {
+            "rear": "50MP + 12MP + 5MP",
+            "front": "32MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB"
+        ],
+        "display": {
+            "size": "6.4 inches",
+            "type": "Super AMOLED",
+            "resolution": "2340 x 1080 pixels"
+        },
+        "battery": {
+            "size": "5000mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 13"
+    },
+    {
+        "brand": "Google",
+        "model": "Pixel 6a",
+        "processor": "Google Tensor",
+        "camera": {
+            "rear": "12.2MP + 12MP",
+            "front": "8MP"
+        },
+        "storage_capacity": [
+            "128GB"
+        ],
+        "display": {
+            "size": "6.1 inches",
+            "type": "OLED",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "4410mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 12"
+    },
+    {
+        "brand": "OnePlus",
+        "model": "Nord 2T",
+        "processor": "Dimensity 1300",
+        "camera": {
+            "rear": "50MP + 8MP + 2MP",
+            "front": "32MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB"
+        ],
+        "display": {
+            "size": "6.43 inches",
+            "type": "Fluid AMOLED",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "4500mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 12"
+    },
+    {
+        "brand": "Sony",
+        "model": "Xperia 5 IV",
+        "processor": "Snapdragon 8 Gen 1",
+        "camera": {
+            "rear": "12MP + 12MP + 12MP",
+            "front": "12MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB"
+        ],
+        "display": {
+            "size": "6.1 inches",
+            "type": "OLED",
+            "resolution": "2520 x 1080 pixels"
+        },
+        "battery": {
+            "size": "5000mAh",
+            "type": "Li-Ion"
+        },
+        "operating_system": "Android 13"
+    },
+    {
+        "brand": "Nothing",
+        "model": "Phone 1",
+        "processor": "Snapdragon 778G+",
+        "camera": {
+            "rear": "50MP + 50MP",
+            "front": "16MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB"
+        ],
+        "display": {
+            "size": "6.55 inches",
+            "type": "OLED",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "4500mAh",
+            "type": "Li-Ion"
+        },
+        "operating_system": "Nothing OS"
+    },
+    {
+        "brand": "IQOO",
+        "model": "9 Pro",
+        "processor": "Snapdragon 8 Gen 1",
+        "camera": {
+            "rear": "50MP + 50MP + 16MP",
+            "front": "16MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB"
+        ],
+        "display": {
+            "size": "6.78 inches",
+            "type": "AMOLED",
+            "resolution": "3200 x 1440 pixels"
+        },
+        "battery": {
+            "size": "4700mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 12"
+    },
+    {
+        "brand": "Vivo",
+        "model": "Y73",
+        "processor": "Helio G95",
+        "camera": {
+            "rear": "64MP + 2MP + 2MP",
+            "front": "16MP"
+        },
+        "storage_capacity": [
+            "128GB"
+        ],
+        "display": {
+            "size": "6.44 inches",
+            "type": "AMOLED",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "4000mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 11"
+    },
+    {
+        "brand": "Oppo",
+        "model": "F21 Pro",
+        "processor": "Snapdragon 680",
+        "camera": {
+            "rear": "64MP + 2MP + 2MP",
+            "front": "32MP"
+        },
+        "storage_capacity": [
+            "128GB"
+        ],
+        "display": {
+            "size": "6.43 inches",
+            "type": "AMOLED",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "4500mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 12"
+    },
+    {
+        "brand": "Poco",
+        "model": "X5 Pro",
+        "processor": "Snapdragon 778G",
+        "camera": {
+            "rear": "108MP + 8MP + 2MP",
+            "front": "16MP"
+        },
+        "storage_capacity": [
+            "128GB",
+            "256GB"
+        ],
+        "display": {
+            "size": "6.67 inches",
+            "type": "AMOLED",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "5000mAh",
+            "type": "Li-Po"
+        },
+        "operating_system": "Android 13"
+    },
+    {
+        "brand": "Nokia",
+        "model": "XR21",
+        "processor": "Snapdragon 695",
+        "camera": {
+            "rear": "64MP + 8MP",
+            "front": "16MP"
+        },
+        "storage_capacity": [
+            "128GB"
+        ],
+        "display": {
+            "size": "6.49 inches",
+            "type": "IPS LCD",
+            "resolution": "2400 x 1080 pixels"
+        },
+        "battery": {
+            "size": "4630mAh",
+            "type": "Li-Ion"
+        },
+        "operating_system": "Android 12"
+    }
+]

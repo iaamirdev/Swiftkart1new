@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+    
+header {
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+}
+    
+header nav {
+    display: flex;
+    gap: 20px;
+    font-size: 14px; /* Adjust font size as needed */
+}
+    
+header nav h3 {
+    color: white;
+}
+    
+header a {
+    color: #eee;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+    
+header a:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+.purchase-details {
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.purchase-details h2 {
+    color: #e7e7e7;
+    margin-top: 0;
+}
+
+.purchase-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.purchase-details ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+
+.purchase-details ul li:last-child {
+    border-bottom: none;
+}
+
+.confirm-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #0D66EF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.confirm-btn:hover {
+    background-color: #000000;
+}

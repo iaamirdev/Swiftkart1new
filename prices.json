@@ -1,0 +1,17 @@
+[
+    {
+        "model": "iPhone 15 Pro Max",
+        "price": 799,
+        "discount": 10
+    },
+    {
+        "model": "Samsung Galaxy S21",
+        "price": 699,
+        "discount": 15
+    },
+    {
+        "model": "Google Pixel 6",
+        "price": 599,
+        "discount": 5
+    }
+]

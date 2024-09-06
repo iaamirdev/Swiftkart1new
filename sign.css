@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    background-color:black;
+    color: #eee;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #5F6368;
+    }
+    
+
+    .search-bar
+{
+    
+    margin-top: 0.5%;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+    header {
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    }
+    
+    header nav {
+    display: flex;
+    gap: 20px;
+    }
+    
+    header a {
+    color: #5F6368;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px; /* Added for a rounded effect */
+    }
+    
+    header a:hover {
+    background-color: #eee;
+    color: #000;
+    }
+
+
+
+.out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.out .inside{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    margin-top: 100px;
+
+}
+.out .inside #in1{
+    border: 1px solid #5F6368;
+    height: 50px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    margin-bottom: 50px;
+} 
+.out .inside #in1:focus{
+    border: 1px solid #1e90ff;
+}
+.out .inside #in1::placeholder{
+    color:  #5F6368;
+} 
+.out .inside #in2{
+    border: 1px solid #5F6368;
+    height: 50px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    margin-bottom: 50px;
+}
+.out .inside #in2:focus{
+    border: 1px solid #1e90ff;
+}
+.out .inside #in2::placeholder{
+    color: solid #5F6368;
+} 
+.out .inside .one{
+      text-align: center;
+}
+.out .inside .one h2{
+    color: #5F6368;
+}
+
+.out .inside .two{
+       text-align: center;
+}
+.out .inside .two h2{
+       color: #5F6368;
+}
+.out .inside .buttons{
+   position: relative;
+   height: 50px;
+   margin-bottom: 30px;
+}
+.out .inside .buttons .butt1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    width: 80px;
+    padding: 8px;
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 5px;
+}
+.out .inside .buttons .butt1:hover{
+    background-color: white;
+}
+.out .inside .buttons .butt2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background-color: #1e90ff;
+}
+.out .inside .buttons .butt2:hover{
+    background-color: white;
+}
+.out .inside .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
